@@ -14,20 +14,20 @@ Before the modification, there was a bipush 10, that was the size of the array t
 
 ## Changes
 
-Before:<br>
+### Before:<br>
   rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC", "SPECIAL", "VERY SPECIAL", "SUPREME", "DIVINE"};
 <br>
-Now:<br>
+### Now:<br>
   rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC", "SPECIAL", "VERY SPECIAL", "SUPREME"};
 <br>
 
 <br>
-Before:<br>
+### Before:<br>
 [...]
   stringArray[8] = net.minecraft.util.EnumChatFormatting.DARK_RED + net.minecraft.util.EnumChatFormatting.BOLD.toString() + "SUPREME";<br>
   stringArray[9] = net.minecraft.util.EnumChatFormatting.AQUA + net.minecraft.util.EnumChatFormatting.BOLD.toString() + "DIVINE";
 <br>
-Now:<br>
+### Now:<br>
 [...]<br>
   stringArray[8] = net.minecraft.util.EnumChatFormatting.DARK_RED + net.minecraft.util.EnumChatFormatting.BOLD.toString() + "SUPREME";<br>
 <br>
