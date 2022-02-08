@@ -18,12 +18,12 @@ Before the modification, there was a bipush 10, that was the size of the array t
 ```java
 rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC", "SPECIAL", "VERY SPECIAL", "SUPREME", "DIVINE"};
 ```
-<br>
+
 ### Now:<br>
 ```java
 rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC", "SPECIAL", "VERY SPECIAL", "SUPREME"};
 ```
-<br>
+
 ### Before:<br>
 ```java
 [...]
