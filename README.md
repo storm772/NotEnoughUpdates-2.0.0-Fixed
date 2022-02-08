@@ -10,7 +10,7 @@ I really don't know WHY this happens but anyways, I fixed it by removing it :) (
 ![image](https://user-images.githubusercontent.com/93355393/153053917-f7163e4d-5274-4d13-bb7d-bb5ba9bc2f0f.png)
 
 ## How did you removed it
-Simple! Using JByteCustom, my own customized JByteMod made by GraxCode and some other devs, sorry I can't remember.
+Simple! Using JByteCustom, my own customized JByteMod made by GraxCode and some other devs, sorry I can't remember.<br>
 ![image](https://user-images.githubusercontent.com/93355393/153054124-887f3c85-8614-43b6-921a-2ab169a68d8f.png)<br>
 Before the modification, there was a `bipush 10`, that was the size of the array that contains the "divine" rarity, so as I removed the "divine" rarity, I just decreased the array size to `9`.
 
