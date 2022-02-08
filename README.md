@@ -1,5 +1,7 @@
 # NotEnoughUpdates-2.0.0-Fixed
-NotEnoughUpdates (NEU) but i fixed /neuah divine error
+NotEnoughUpdates (NEU) by Moulberry, but i fixed /neuah divine error
+
+NEU Link: https://github.com/Moulberry/NotEnoughUpdates
 
 ## What was the error
 When you do /neuah, you have a option to filter the rarity of whatever you want to search. Between the rarities, there was a specific one called "Divine" that, when you chose it, the game crashes.
