@@ -28,21 +28,21 @@ rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGEND
 ### Before:
 ```java
 [...]
-  stringArray[8] = net.minecraft.util.EnumChatFormatting.DARK_RED + net.minecraft.util.EnumChatFormatting.BOLD.toString() + "SUPREME";<br>
+  stringArray[8] = net.minecraft.util.EnumChatFormatting.DARK_RED + net.minecraft.util.EnumChatFormatting.BOLD.toString() + "SUPREME";
   stringArray[9] = net.minecraft.util.EnumChatFormatting.AQUA + net.minecraft.util.EnumChatFormatting.BOLD.toString() + "DIVINE";
 ```
 ### Now:<br>
 ```java
 [...]
-  stringArray[8] = net.minecraft.util.EnumChatFormatting.DARK_RED + net.minecraft.util.EnumChatFormatting.BOLD.toString() + "SUPREME";<br>
+  stringArray[8] = net.minecraft.util.EnumChatFormatting.DARK_RED + net.minecraft.util.EnumChatFormatting.BOLD.toString() + "SUPREME";
 ```
 <hr/>
 
 ### Before:
 ```java
 [...]
-  rarityArrMap.put((java.lang.Object)"SUPREME", (java.lang.Object)rarityArrC[8]);<br>
-  rarityArrMap.put((java.lang.Object)"DIVINE", (java.lang.Object)rarityArrC[9]);<br>
+  rarityArrMap.put((java.lang.Object)"SUPREME", (java.lang.Object)rarityArrC[8]);
+  rarityArrMap.put((java.lang.Object)"DIVINE", (java.lang.Object)rarityArrC[9]);
 ```
 
 ### Now:
