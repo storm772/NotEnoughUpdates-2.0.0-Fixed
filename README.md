@@ -15,29 +15,37 @@ Before the modification, there was a bipush 10, that was the size of the array t
 ## Changes
 
 ### Before:<br>
-  rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC", "SPECIAL", "VERY SPECIAL", "SUPREME", "DIVINE"};
+```java
+rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC", "SPECIAL", "VERY SPECIAL", "SUPREME", "DIVINE"};
+```
 <br>
 ### Now:<br>
+```java
   rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC", "SPECIAL", "VERY SPECIAL", "SUPREME"};
+```
 <br>
 
 <br>
 ### Before:<br>
+```java
 [...]
   stringArray[8] = net.minecraft.util.EnumChatFormatting.DARK_RED + net.minecraft.util.EnumChatFormatting.BOLD.toString() + "SUPREME";<br>
   stringArray[9] = net.minecraft.util.EnumChatFormatting.AQUA + net.minecraft.util.EnumChatFormatting.BOLD.toString() + "DIVINE";
+```
 <br>
 ### Now:<br>
+```java
 [...]<br>
   stringArray[8] = net.minecraft.util.EnumChatFormatting.DARK_RED + net.minecraft.util.EnumChatFormatting.BOLD.toString() + "SUPREME";<br>
+```
 <br>
 
 <br>
-Before:<br>
+### Before:<br>
 [...]<br>
   rarityArrMap.put((java.lang.Object)"SUPREME", (java.lang.Object)rarityArrC[8]);<br>
   rarityArrMap.put((java.lang.Object)"DIVINE", (java.lang.Object)rarityArrC[9]);<br>
 <br>
-Now:<br>
+### Now:<br>
 [...]<br>
   rarityArrMap.put((java.lang.Object)"SUPREME", (java.lang.Object)rarityArrC[8]);
