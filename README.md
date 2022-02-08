@@ -24,8 +24,6 @@ rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGEND
 rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC", "SPECIAL", "VERY SPECIAL", "SUPREME"};
 ```
 <br>
-
-<br>
 ### Before:<br>
 ```java
 [...]
