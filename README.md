@@ -23,7 +23,7 @@ rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGEND
 ```java
 rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC", "SPECIAL", "VERY SPECIAL", "SUPREME"};
 ```
-
+<hr/>
 ### Before:
 ```java
 [...]
@@ -35,7 +35,7 @@ rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGEND
 [...]
   stringArray[8] = net.minecraft.util.EnumChatFormatting.DARK_RED + net.minecraft.util.EnumChatFormatting.BOLD.toString() + "SUPREME";<br>
 ```
-
+<hr/>
 ### Before:
 ```java
 [...]
