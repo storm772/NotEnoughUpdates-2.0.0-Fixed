@@ -12,6 +12,7 @@ Simple! Using JByteCustom, my own customized JByteMod made by GraxCode and some 
 ![image](https://user-images.githubusercontent.com/93355393/153054124-887f3c85-8614-43b6-921a-2ab169a68d8f.png)<br>
 Before the modification, there was a bipush 10, that was the size of the array that contains the "divine" rarity, so as I removed the "divine" rarity, I just decreased the array size to 9.
 
+## Changes
 
 Before:<br>
   rarityArr = new java.lang.String[]{"COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC", "SPECIAL", "VERY SPECIAL", "SUPREME", "DIVINE"};
